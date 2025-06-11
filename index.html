@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>🏆 Títulos de River Plate</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Visualización de los títulos ganados por River Plate a lo largo de las décadas.">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <div class="container">
+    <h1>🔴⚪ Títulos de River Plate</h1>
+
+    <section>
+      <h2>📸 Imagen del Campeón</h2>
+      <img 
+        src="https://i.pinimg.com/736x/47/e6/03/47e603b86dd8251723edff1f573ff785.jpg" 
+        alt="Jugadores de River Plate celebrando en el Estadio Monumental" 
+        width="640" 
+        height="400" 
+        loading="lazy" />
+    </section>
+
+    <section>
+      <h2>🏆 Principales Títulos</h2>
+      <table>
+        <thead>
+          <tr><th>Competencia</th><th>Cantidad</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Liga Argentina</td><td>38</td></tr>
+          <tr><td>Copa Libertadores</td><td>4</td></tr>
+          <tr><td>Copa Argentina</td><td>3</td></tr>
+          <tr><td>Supercopa Argentina</td><td>2</td></tr>
+          <tr><td>Copa Intercontinental</td><td>1</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>📈 Títulos por Década</h2>
+      <canvas id="graficoTitulos" aria-label="Gráfico de barras de títulos ganados por década" role="img" height="100"></canvas>
+    </section>
+  </div>
+
+  <footer>
+    © 2025 - Club Atlético River Plate | Historia de Gloria
+  </footer>
+
+</body>
+</html>
